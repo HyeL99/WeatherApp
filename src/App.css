@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  background: url(https://mblogthumb-phinf.pstatic.net/MjAxOTA1MzBfMTI1/MDAxNTU5MjI1MTgxNjMy._s7sTPUk3deXhNu1Rz5pBKmFedXnuVvpbkT6IbTEU94g.dd0jgwndvRO1s-6-5gq1a6QwT4NuWwTYGJyiCulNyVwg.JPEG.bemine9_9/com_2.jpg?type=w800);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Sansita Swashed', cursive !important;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.weather-box {
+  border: 3px solid white;
+  padding: 7em;
+  border-radius: 0.5em;
+  background-color: rgba(255, 255, 255, 0.532);
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-box {
+  border: 3px solid white;
+  border-radius: 0.5em;
+  background-color: white;
+  padding: 1em 3em;
+  text-align: center;
+}
+.btn-primary {
+  color: #fff;
+  background-color: pink ! important;
+  border-color: pink ! important;
+}
+.btn-outline-primary {
+  color: pink ! important;
+  border-color: pink ! important;
+}
+.btn-outline-primary:hover {
+  background-color: rgb(255, 137, 157) ! important;
+  border-color: rgb(255, 137, 157) ! important;
+  color: white! important;
+}
+.description{
+  color: rgb(106, 72, 184);
+}
+.title{
+  color: rgb(184, 72, 102);
+}
+.temp{
+  color: rgb(74, 74, 74);
 }
